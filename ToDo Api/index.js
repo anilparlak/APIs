@@ -12,7 +12,7 @@ app.get('/',function(req,res){
     //res.sendFile(path.join(__dirname+'/index.html'));
     res.send(`
         <div style="display:flex; flex-direction:column;  align-items:center; height:100vh; width:100%;" >
-            <h1> This API is made by Anıl Parlak for <em>Todo App</em> </h1>
+            <h3> This API is created by Anıl Parlak for <em>Todo App</em> </h3>
             <span> <b>for get all todos:</b> <em> https://infinite-waters-90313.herokuapp.com/api/lists </em> </span>
             <span> <b>for get one of todos:</b>  <em>https://infinite-waters-90313.herokuapp.com/api/list/:id </em></span>
             <span> <b>for post todo:</b>  <em>https://infinite-waters-90313.herokuapp.com/api/save </em></span>

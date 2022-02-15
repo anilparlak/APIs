@@ -19,7 +19,7 @@ app.get('/',function(req,res){
  
   res.send(`
       <div style="display:flex; flex-direction:column;  align-items:center; height:100vh; width:100%;" >
-          <h1> This API is made by Anıl Parlak for <em>E-commerce Website</em> </h1>
+          <h3> This API is created by Anıl Parlak for <em>E-commerce Website</em> </h3>
           <span> <b>for user register:</b> <em> https://nodejs-api-for-ecommerce.herokuapp.com/api/auth/register </em> </span>
           <span>body must include username password and email</span>
           <br>
